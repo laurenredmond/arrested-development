@@ -4,6 +4,7 @@ body {
   padding: 1em;
   transition: all 500ms;
   will-change: background;
+  overflow-x: hidden;
 }
 
 header {

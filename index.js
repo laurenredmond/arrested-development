@@ -3,7 +3,6 @@ $(window).scroll(function() {
   var $window = $(window),
       $body = $('body'),
       $bgChange = $('.bgChange');
-      $header = $('header');
 
   // Change 33% earlier than scroll position
   var scroll = $window.scrollTop() + ($window.height() / 3);
